@@ -1,0 +1,17 @@
+server:
+  host: "127.0.0.1"
+  port: 8000
+  reload: true
+  debug: true
+
+api:
+  title: "FastAPI MLOps Practice API"
+  version: "1.0.0"
+  description: "A simple FastAPI application for MLOps practice"
+
+endpoints:
+  base_url: "http://127.0.0.1:8000"
+  predict_endpoint: "/predict"
+  health_endpoint: "/health"
+  root_endpoint: "/"
+  docs_endpoint: "/docs"
