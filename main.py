@@ -11,3 +11,8 @@ def home():
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+@app.get("/square")
+def square(x: int):
+    return {"result": x**2}
+
